@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { getMenuStyles, headerVariants } from "../../utils/motion";
 import useOutsideAlerter from "../../hooks/useOutsideAlerter";
 import useHeaderShadow from "../../hooks/useHeaderShadow";
+import { TypeAnimation } from 'react-type-animation';
 
 const Header = () => {
   const menuRef = useRef(null);
@@ -27,7 +28,7 @@ const Header = () => {
       style={{boxShadow: headerShadow}}
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
-        <div className={css.name}>Binjan</div>
+        <div className={css.name}>Akhyar Azamta</div>
         <ul
           className={`flexCenter ${css.menu}`}
           ref={menuRef}
@@ -36,9 +37,9 @@ const Header = () => {
           <li><a href="#experties">Services</a></li>
           <li><a href="#work">Experience</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#people">Testimoni</a></li>
+          <li><a href="#people">Testimonials</a></li>
           <li className={`flexCenter ${css.phone}`}>
-            <p>+001 (313) 345 678</p>
+            <p>+628382937xxxx</p>
             <BiPhoneCall size={"40px"} />
           </li>
         </ul>
