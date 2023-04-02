@@ -113,10 +113,14 @@
 }
 
 .complete {
+  @media (min-width: $xl),
+  (min-width: $md) {
+    font-size: 2.5rem;
+  }
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translateX(55px);
+  transform: translateX(35px);
 }
 
 .flexStart {
