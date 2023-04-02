@@ -42,7 +42,7 @@ const Experties = () => {
                 {WhatDoIHelp.map((paragraph, i)=> <span className='secondaryText' key={i}>{paragraph}</span>)}
 
 
-                <div className={`flexCenter ${css.stats}`}>
+                <div className={`complete ${css.stats}`}>
                     <div className={`flexCenter ${css.stat}`}>
                         <span className='primaryText'>285+</span>
                         <span className='secondaryText'>Project Completed</span>

@@ -16,12 +16,14 @@
 .paddings {
   @media (min-width: $sm) {
     padding: 4rem;
+    // background-color: aqua;
   }
-
-
+  
+  
   @media (min-width: $xl),
   (min-width: $md) {
     padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   padding-left: 1.5rem;
@@ -30,6 +32,25 @@
   padding-bottom: 1.5rem;
 }
 
+.nav{
+  @media (min-width: $sm) {
+    padding: 4rem;
+    // background-color: aqua;
+  }
+  
+  
+  @media (min-width: $xl),
+  (min-width: $md) {
+    // padding: 1rem;
+    padding: 15px 100px 15px;
+    // padding-bottom: 0;
+  }
+
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
 
 
 .xPaddings {
@@ -89,6 +110,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.complete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(55px);
 }
 
 .flexStart {

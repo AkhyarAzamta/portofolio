@@ -23,97 +23,68 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
+  "I'm a Frontend Engineer who designs and codes user interfaces for websites and apps to improve user experience. I also ensure accessibility and optimize performance by fixing bugs and implementing new technologies.",
 ];
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
+    place: "PT. IT Tech",
+    tenure: "Aug 2020 - Sep 2021",
     role: "Visual Designer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "As a Frontend Software Engineer, the main task is to develop web applications by taking design views from the UI/UX team and designing applications based on the design. This may involve using programming languages such as HTML, CSS, and JavaScript as well as frameworks such as React, Angular, or Vue.",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "SoftDev Indonesia",
+    tenure: "Aug 2021 - Sep 2022",
+    role: "Junior Software Engineer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "During the development process, you will continuously add new features and develop the application. In this case, you will be responsible for ensuring that the new features added work properly and do not disrupt the functionality of the existing application.",
   },
   {
     place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    tenure: "Aug 2022 - Sep 2023",
+    role: "Frontend Software Engineer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "As a Frontend Software Engineer, you may also be responsible for integrating the application with backend services through APIs. This may involve using technologies such as REST, GraphQL, or WebSockets.",
   },
 ];
 
 export const comments = [
   {
-    name: "Anamika Sandula",
+    name: "Lancelot",
     post: "Creative Manager",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Programming skills: Able to produce clean, understandable, and industry-standard code. Ability to complete programming tasks effectively and efficiently, avoiding logical errors and minimizing code repetition.",
+    img: "./org.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Gusion",
+    post: "CEO",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "Application development skills: Able to develop applications that meet user needs and project specifications. Ability to create a good application design and select appropriate technology. Able to ensure the application runs well on different platforms and devices.",
+    img: "./org.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Zilong",
+    post: "Manager",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Teamwork skills: Able to work with team members who have different specializations and provide useful input. Able to communicate clearly and effectively with team members and resolve conflicts in a productive manner.",
+    img: "./org.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Alucard",
+    post: "Founder of Fighter",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "Ability to master current technology: Able to master current technology and select the right technology for the project. Able to quickly learn new technology and apply it to the project.",
+    img: "./org.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Lesley",
+    post: "Power of Marksman",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Problem-solving skills: Able to identify problems and find appropriate solutions. Ability to analyze and solve problems effectively and efficiently. Able to use problem-solving skills to improve the quality of the application and development process.",
+    img: "./org.png",
   },
 ];
 

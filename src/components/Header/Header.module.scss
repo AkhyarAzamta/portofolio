@@ -8,6 +8,12 @@
     position: sticky;
     top: 0px;
     transition: all 300ms ease;
+    @media (min-width: $sm) {
+        margin-bottom: 4rem;
+        padding-bottom: 50rem;
+        background-color: aqua;
+        transform: translateY(20px);
+      }
 
     .container {
         position: relative;
