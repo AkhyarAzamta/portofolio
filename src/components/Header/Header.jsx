@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { getMenuStyles, headerVariants } from "../../utils/motion";
 import useOutsideAlerter from "../../hooks/useOutsideAlerter";
 import useHeaderShadow from "../../hooks/useHeaderShadow";
-import logo from '../../../public/logo.png';
 
 const Header = () => {
   const menuRef = useRef(null);
@@ -29,7 +28,7 @@ const Header = () => {
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
         <div className={css.name}>
-          <img src="./logo.png" alt="logo" style={{ width: '40px', height: '40px', marginRight: '15px' }}/>
+          <img src="https://raw.githubusercontent.com/AkhyarAzamta/portofolio/main/public/logo.png" alt="logo" style={{ width: '40px', height: '40px', marginRight: '15px' }}/>
           Akhyar Azamta
         </div>
         <ul
