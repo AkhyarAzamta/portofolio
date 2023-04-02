@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { getMenuStyles, headerVariants } from "../../utils/motion";
 import useOutsideAlerter from "../../hooks/useOutsideAlerter";
 import useHeaderShadow from "../../hooks/useHeaderShadow";
-import { TypeAnimation } from 'react-type-animation';
 
 const Header = () => {
   const menuRef = useRef(null);

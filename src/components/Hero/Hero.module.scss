@@ -13,6 +13,8 @@
                 justify-content: center;
                 text-align: center;
                 gap: 2rem;
+                display: flex;
+                flex-direction: column;
             }
             display: flex;
             align-items: center;
@@ -89,4 +91,13 @@
             color: orange;
         }
     }
+    .Text {
+        @media (max-width: $sm) {
+      font-size: 1.1rem;
+      line-height: 40px;
+    }
+    line-height: 50px;
+    font-size: 1.3rem;
+    font-weight: 500px;
+  }
 }
