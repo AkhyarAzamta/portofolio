@@ -54,11 +54,11 @@ const Hero = () => {
           variants={fadeIn("up", "tween", 0.3, 1)}
           className={css.person}
         >
-          <motion.img variants={slideIn("up", "tween", 0.5, 1.3)} src="./person.png" alt="" />
+          <motion.img className={css.urg} variants={slideIn("up", "tween", 0.5, 1.3)} src="./urg.png" alt="foto akhyar azamta" />
         </motion.div>
 
-        <a className={css.email} href="mailto:zainkeepscode@gmail.com">
-          zainkeepscode@gmail.com
+        <a className={css.email} href="mailto:akhyar.azamta@gmail.com">
+          akhyar.azamta@gmail.com
         </a>
 
         <div className={css.lowerElements}>

@@ -27,7 +27,10 @@ const Header = () => {
       style={{boxShadow: headerShadow}}
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
-        <div className={css.name}>Akhyar Azamta</div>
+        <div className={css.name}>
+          <img src=".././public/logo.png" alt="logo" style={{ width: '40px', height: '40px', marginRight: '15px' }}/>
+          Akhyar Azamta
+        </div>
         <ul
           className={`flexCenter ${css.menu}`}
           ref={menuRef}

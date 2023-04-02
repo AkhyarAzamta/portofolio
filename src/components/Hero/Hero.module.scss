@@ -79,6 +79,15 @@
                 margin-bottom: -5px;
             }
         }
+        .urg {
+        
+                @media (min-width: $sm ) {
+                    width: 30rem;
+                    height: 30rem;
+                }
+                margin-bottom: -5px;
+        
+        }
 
         .email {
             @media (max-width: $sm ) {
@@ -100,7 +109,5 @@
     font-size: 1.3rem;
     font-weight: 500px;
   }
-  .Nav{
-    
-  }
+
 }
