@@ -28,7 +28,7 @@ const Header = () => {
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
         <div className={css.name}>
-          <img src=".././public/logo.png" alt="logo" style={{ width: '40px', height: '40px', marginRight: '15px' }}/>
+          <img src="../../public/logo.png" alt="logo" style={{ width: '40px', height: '40px', marginRight: '15px' }}/>
           Akhyar Azamta
         </div>
         <ul
