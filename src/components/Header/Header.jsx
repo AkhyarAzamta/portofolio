@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { getMenuStyles, headerVariants } from "../../utils/motion";
 import useOutsideAlerter from "../../hooks/useOutsideAlerter";
 import useHeaderShadow from "../../hooks/useHeaderShadow";
+import logo from '../../../public/logo.png';
 
 const Header = () => {
   const menuRef = useRef(null);
