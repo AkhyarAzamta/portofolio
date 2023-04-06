@@ -1,2 +1,2 @@
 # portofolio
-![view](/public/view.png)
+![view](/public/view.jpg)
